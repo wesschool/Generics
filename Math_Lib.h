@@ -16,6 +16,12 @@ namespace Math
 	}
 	
 	template <typename T>
+	T  absoluteValue(T value)
+	{
+		return (value < 0) ? -value : value;
+	}
+	
+	template <typename T>
 	T getBiggest(T a, T b)
 	{
 		return (a > b) ? a : b;
